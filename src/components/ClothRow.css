@@ -1,0 +1,29 @@
+tr, td {
+ background-color: #142E54;
+ color: #EAE6DF;
+ text-align: left;
+ padding: 8px;
+ text-align: center;
+ margin-bottom: 2px;
+}
+span{
+ cursor: pointer;
+ text-align: center;
+}
+span:hover{
+color: rgb(255, 1, 1);
+transform: scale(1.1);
+}
+@media (max-width:550px) {
+ tr, td {
+  width: 100%;
+  background-color: #A796;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding: 3px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+ }
+}
